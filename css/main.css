@@ -1,0 +1,107 @@
+
+
+body {
+	background-color: #232323;
+	text-align: center;
+}
+
+.square {
+	width: 30%;
+	margin: 1.66%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 25px;
+	transition: all .3s ease;
+}
+
+.square:hover {
+	transform: scale(1.07);
+	cursor: pointer;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	padding: 15px 0px;
+	color: white;
+	transition: all .3s ease;
+}
+
+#stripe {
+	background-color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom: 30px;
+}
+
+.selected {
+	background-color: lightblue;
+}
+
+.stripe-item {
+	display: inline-block;
+	margin: 0px 5%;
+}
+
+#message {
+	width: 80px;
+}
+
+button.mode {
+	outline: none;
+	transition: all .3s ease;
+	border: none;
+}
+
+button.mode:hover {
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+button#reset {
+	outline: none;
+	transition: all .2s ease;
+}
+
+button#reset:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+button {
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 2px 7px;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
